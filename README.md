@@ -5,6 +5,16 @@
 새 학습과 복습 행동에 배분하는 방식으로 환경을 구성했으며, 최종 보존 지식량,
 밀린 학습량, coverage ratio, episode return 등을 함께 확인했습니다.
 
+## 최종 실험 결과
+
+학습된 DQN 모델 파일은 다음 위치에 저장했습니다.
+
+- [seed 100 모델 다운로드](models/dqn_policy_seed_100.pt)
+- [seed 101 모델 다운로드](models/dqn_policy_seed_101.pt)
+- [seed 102 모델 다운로드](models/dqn_policy_seed_102.pt)
+- [seed 103 모델 다운로드](models/dqn_policy_seed_103.pt)
+- [seed 104 모델 다운로드](models/dqn_policy_seed_104.pt)
+
 ## 프로젝트 구조
 
 - `src/`: 학습 스케줄링 환경, baseline 정책, DQN agent 코드가 들어 있습니다.
@@ -57,16 +67,6 @@ python experiments/train_dqn.py --output-dir results/local_dqn
 ```bash
 python experiments/sweep_dqn.py --output-dir results/local_sweep
 ```
-
-## 최종 실험 결과
-
-학습된 DQN 모델 파일은 다음 위치에 저장했습니다.
-
-- [seed 100 모델 다운로드](models/dqn_policy_seed_100.pt)
-- [seed 101 모델 다운로드](models/dqn_policy_seed_101.pt)
-- [seed 102 모델 다운로드](models/dqn_policy_seed_102.pt)
-- [seed 103 모델 다운로드](models/dqn_policy_seed_103.pt)
-- [seed 104 모델 다운로드](models/dqn_policy_seed_104.pt)
 
 ## 결과 해석
 
