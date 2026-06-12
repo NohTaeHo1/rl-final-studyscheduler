@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.mplconfig/
+
+# Ignore generated experiment outputs by default.
+results/**
+
+# Process notes are kept outside the submitted project folder.
+notes/
+
+# Local data and ad hoc large files
+data/
+*.csv
+*.csv.gz
+*.zip
+
+# Keep selected files that are intentionally submitted.
+!models/
+!models/*.pt
+!models/*.pth
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
