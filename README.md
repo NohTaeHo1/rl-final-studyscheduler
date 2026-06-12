@@ -5,6 +5,10 @@
 새 학습과 복습 행동에 배분하는 방식으로 환경을 구성했으며, 최종 보존 지식량,
 밀린 학습량, coverage ratio, episode return 등을 함께 확인했습니다.
 
+## PPT 보고서
+- [PPT 보고서 보기](RL_Study_Scheduler.pptx)
+- [PDF 보고서 보기](RL_Study_Scheduler.pdf)
+
 ## 최종 실험 결과
 
 학습된 DQN 모델 파일은 다음 위치에 저장했습니다.
